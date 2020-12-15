@@ -1,0 +1,18 @@
+h3{
+    font-size: x-large !important;
+}
+
+.btn-default:hover{
+    background-color: red;
+}
+
+canvas{
+    animation-name: col;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@keyframes col{
+    from{box-shadow: 1px 1px 40px black;}
+    to{box-shadow: 1px 1px 40px red;}
+}
